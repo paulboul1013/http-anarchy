@@ -71,6 +71,20 @@ you can see have -200 status code，of course this is not normal response becaus
 
 ## web browser with big number status code 
 
+### edge
+<img width="1919" height="927" alt="image" src="https://github.com/user-attachments/assets/b3423ce2-70a1-4088-bd39-c625899218f5" />
+
+### chrome
+<img width="1920" height="869" alt="image" src="https://github.com/user-attachments/assets/4a5b41f8-f80a-406b-9a36-9363a2a44e26" />
+
+
+### brave
+<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/f57f98cd-3b80-4df4-9b6a-cf76fa885e11" />
+
+### firefox
+<img width="1870" height="929" alt="image" src="https://github.com/user-attachments/assets/aecc4429-a92a-490f-bcfa-a99c7f9de662" />
+
+
 
 ##  Features
 - **Negative Status Codes**: Send `-200` and watch Chrome treat it as success.
