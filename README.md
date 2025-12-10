@@ -33,7 +33,7 @@ curl -v http://127.0.0.1:8080/
 
 ---
 
-send the self define code
+### curl negative number 
 ```c
 curl -v http://127.0.0.1:8080/-200
 
@@ -49,8 +49,51 @@ curl -v http://127.0.0.1:8080/-200
 curl: (1) Unsupported HTTP/1 subversion in response
 
 ```
-
 you can see have -200 status code，of course this is not normal response because this is not officially status code
+
+### curl big number 
+```c
+curl -v http://127.0.0.1:8080/999999 
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080
+> GET /999999 HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+* Unsupported HTTP/1 subversion in response
+* Closing connection
+curl: (1) Unsupported HTTP/1 subversion in response
+```
+### curl string status code
+```c
+curl -v http://127.0.0.1:8080/foo
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080
+> GET /foo HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+* Unsupported HTTP/1 subversion in response
+* Closing connection
+curl: (1) Unsupported HTTP/1 subversion in response
+```
+
+### curl image header status code
+```c
+curl -v http://127.0.0.1:8080/r.png
+*   Trying 127.0.0.1:8080...
+* Connected to 127.0.0.1 (127.0.0.1) port 8080
+> GET /r.png HTTP/1.1
+> Host: 127.0.0.1:8080
+> User-Agent: curl/8.5.0
+> Accept: */*
+> 
+* Unsupported HTTP/1 subversion in response
+* Closing connection
+curl: (1) Unsupported HTTP/1 subversion in response
+```
 
 
 ##  web browser with -200 status code 
