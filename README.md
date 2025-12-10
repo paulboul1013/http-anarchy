@@ -177,4 +177,4 @@ curl: (1) Unsupported HTTP/1 subversion in response
 
 ## reference
 https://www.youtube.com/watch?v=I7i6fToaNho
-
+https://developer.mozilla.org/zh-TW/docs/Web/HTTP/Reference/Status
