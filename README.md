@@ -15,6 +15,18 @@ Standard web servers (Node.js, Nginx, Apache) strictly follow RFC specifications
 - **Strings as Codes**: Send `foo` or any text (Status line injection).
 - **Magic Bytes Mode**: Request a local file (e.g., `/image.png`), and the server will extract its **file signature (Magic Bytes)** and use it as the HTTP status code (e.g., `FFD8FFE0...`).
 
+## Usage
+1. execute the program 
+```
+python3 main.py
+```
+2. open any web browser to input，like edge chrome firefox ...
+
+3. input the server ip and port in the search bar
+<img width="279" height="30" alt="image" src="https://github.com/user-attachments/assets/578a7ae1-719f-4b64-85a6-6edba0dd1c7d" />
+
+4. input you want to input the self status code after the server ip and port
+<img width="157" height="27" alt="image" src="https://github.com/user-attachments/assets/deaa3e90-e064-4d99-b73b-3c9cf481cc10" />
 
 
 ## results
@@ -105,8 +117,6 @@ curl: (1) Unsupported HTTP/1 subversion in response
 
 
 ##  web browser with -200 status code 
-
-<img width="485" height="170" alt="image" src="https://github.com/user-attachments/assets/e737daa7-8f47-4fb2-aa01-3177b7e51910" />
 
 ### edge
 <img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/036bce33-78d3-49d1-a782-53b4fd89a32a" />
