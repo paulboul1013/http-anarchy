@@ -53,6 +53,23 @@ curl: (1) Unsupported HTTP/1 subversion in response
 you can see have -200 status code，of course this is not normal response because this is not officially status code
 
 
+##  web browser with -200 status code 
+
+<img width="485" height="170" alt="image" src="https://github.com/user-attachments/assets/e737daa7-8f47-4fb2-aa01-3177b7e51910" />
+
+### edge
+<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/036bce33-78d3-49d1-a782-53b4fd89a32a" />
+
+### chrome
+<img width="1920" height="918" alt="image" src="https://github.com/user-attachments/assets/362422a0-b6ca-4f92-aa4f-dfcec43dc4f8" />
+
+### brave
+<img width="1915" height="1042" alt="image" src="https://github.com/user-attachments/assets/bc898185-e97b-4b3d-a469-e713e11ee729" />
+
+### firefox
+<img width="1909" height="1040" alt="image" src="https://github.com/user-attachments/assets/41144ed9-129b-4972-9582-dd6a8c01e715" />
+
+## web browser with big number status code 
 
 
 ##  Features
