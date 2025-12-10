@@ -9,6 +9,14 @@ It also features a "Magic Byte" mode that reads a file's header (e.g., PNG, JPEG
 ##  Why can't define own status code
 Standard web servers (Node.js, Nginx, Apache) strictly follow RFC specifications and will throw errors if you try to send a status code like `-200` or `9999`. By using Python's `socket` module, we operate at the TCP layer, constructing raw HTTP response strings manually to break these rules.
 
+##  Features
+- **Negative Status Codes**: Send `-200` and watch Chrome treat it as success.
+- **Huge Integers**: Send `999999` or arbitrary numbers.
+- **Strings as Codes**: Send `foo` or any text (Status line injection).
+- **Magic Bytes Mode**: Request a local file (e.g., `/image.png`), and the server will extract its **file signature (Magic Bytes)** and use it as the HTTP status code (e.g., `FFD8FFE0...`).
+
+
+
 ## results
 you can use the curl command to check results
 
@@ -156,11 +164,6 @@ curl: (1) Unsupported HTTP/1 subversion in response
 <img width="1868" height="930" alt="image" src="https://github.com/user-attachments/assets/14dfb0a5-431b-4cae-8ef6-d358c164ba98" />
 
 
-##  Features
-- **Negative Status Codes**: Send `-200` and watch Chrome treat it as success.
-- **Huge Integers**: Send `999999` or arbitrary numbers.
-- **Strings as Codes**: Send `foo` or any text (Status line injection).
-- **Magic Bytes Mode**: Request a local file (e.g., `/image.png`), and the server will extract its **file signature (Magic Bytes)** and use it as the HTTP status code (e.g., `FFD8FFE0...`).
 
 ## reference
 https://www.youtube.com/watch?v=I7i6fToaNho
