@@ -84,6 +84,33 @@ you can see have -200 status code，of course this is not normal response becaus
 ### firefox
 <img width="1870" height="929" alt="image" src="https://github.com/user-attachments/assets/aecc4429-a92a-490f-bcfa-a99c7f9de662" />
 
+## web browser with string status code 
+
+### edge
+<img width="1920" height="924" alt="image" src="https://github.com/user-attachments/assets/df2b7714-eb46-44f8-9aa1-54ed94908a39" />
+
+### chrome
+<img width="1920" height="863" alt="image" src="https://github.com/user-attachments/assets/853a38fe-a7ca-4e01-b25c-2ad26155551f" />
+
+### brave
+<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/1fd12e2e-aa46-4d7d-b0a9-2146c1ab03b4" />
+
+### firefox
+<img width="1870" height="927" alt="image" src="https://github.com/user-attachments/assets/d30bcb7c-3294-4e1f-b000-6955c52f1d18" />
+
+## web browser with image header status code 
+
+### edge
+<img width="1918" height="924" alt="image" src="https://github.com/user-attachments/assets/b213b8b7-283c-47e3-b8db-165c350df8e8" />
+
+### chrome
+<img width="1920" height="866" alt="image" src="https://github.com/user-attachments/assets/7ca27f4a-fae6-4c6c-afdd-07c62e51ef53" />
+
+### brave
+<img width="1920" height="923" alt="image" src="https://github.com/user-attachments/assets/4af0bf49-e06c-45b0-ba95-ca09094ab6b1" />
+
+### firefox
+<img width="1868" height="930" alt="image" src="https://github.com/user-attachments/assets/14dfb0a5-431b-4cae-8ef6-d358c164ba98" />
 
 
 ##  Features
